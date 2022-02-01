@@ -1,0 +1,60 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/17.0.1/bin/node /opt/homebrew/bin/yarn
+
+PATH: 
+  /Users/nicolaslopes/.local/share/solana/install/active_release/bin:/Users/nicolaslopes/Library/Android/sdk/platform-tools:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/opt/homebrew/Caskroom/miniconda/base/bin:/opt/homebrew/Caskroom/miniconda/base/condabin:/Users/nicolaslopes/.zinit/polaris/bin:/Users/nicolaslopes/.local/share/solana/install/active_release/bin:/Users/nicolaslopes/Library/Android/sdk/platform-tools:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/nicolaslopes/.cargo/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/usr/local/opt/node@14/bin:/Users/nicolaslopes/Downloads/flutter/bin:/Users/nicolaslopes/Library/Android/Sdk/emulator:/Users/nicolaslopes/Library/Android/Sdk/tools:/Users/nicolaslopes/Library/Android/Sdk/tools/bin:/Users/nicolaslopes/Library/Android/Sdk/platform-tools:/Users/nicolaslopes/.cabal/bin:/Users/nicolaslopes/.ghcup/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/usr/local/opt/node@14/bin:/Users/nicolaslopes/Downloads/flutter/bin:/Users/nicolaslopes/Library/Android/Sdk/emulator:/Users/nicolaslopes/Library/Android/Sdk/tools:/Users/nicolaslopes/Library/Android/Sdk/tools/bin:/Users/nicolaslopes/Library/Android/Sdk/platform-tools:/Users/nicolaslopes/.cabal/bin:/Users/nicolaslopes/.ghcup/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  17.0.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOSPC: no space left on device, copyfile '/Users/nicolaslopes/Library/Caches/Yarn/v6/npm-eslint-5.16.0-a1e3ac1aae4a3fbd8296fcf8f7ab7314cbb6abea-integrity/node_modules/eslint/lib/util/apply-disable-directives.js' -> '/Users/nicolaslopes/www/crypteon/contracts/node_modules/solhint/node_modules/eslint/lib/util/apply-disable-directives.js'
+
+npm manifest: 
+  {
+    "name": "hardhat-project",
+    "devDependencies": {
+      "@nomiclabs/hardhat-ethers": "^2.0.4",
+      "@nomiclabs/hardhat-etherscan": "^2.1.8",
+      "@nomiclabs/hardhat-waffle": "^2.0.2",
+      "@typechain/ethers-v5": "^7.2.0",
+      "@typechain/hardhat": "^2.3.1",
+      "@types/chai": "^4.3.0",
+      "@types/mocha": "^9.1.0",
+      "@types/node": "^12.20.43",
+      "@typescript-eslint/eslint-plugin": "^4.33.0",
+      "@typescript-eslint/parser": "^4.33.0",
+      "chai": "^4.3.6",
+      "dotenv": "^10.0.0",
+      "eslint": "^7.32.0",
+      "eslint-config-prettier": "^8.3.0",
+      "eslint-config-standard": "^16.0.3",
+      "eslint-plugin-import": "^2.25.4",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-prettier": "^3.4.1",
+      "eslint-plugin-promise": "^5.2.0",
+      "ethereum-waffle": "^3.4.0",
+      "ethers": "^5.5.4",
+      "hardhat": "^2.8.3",
+      "hardhat-gas-reporter": "^1.0.7",
+      "prettier": "^2.5.1",
+      "prettier-plugin-solidity": "^1.0.0-beta.13",
+      "solhint": "^3.3.6",
+      "solidity-coverage": "^0.7.18",
+      "ts-node": "^10.4.0",
+      "typechain": "^5.2.0",
+      "typescript": "^4.5.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
